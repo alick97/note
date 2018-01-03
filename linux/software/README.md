@@ -1,0 +1,1 @@
+# note software in linux, like how to setup and use
