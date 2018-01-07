@@ -3,4 +3,6 @@
 * [linux](linux/README.md)
     * [software](linux/software/README.md)
         * [gitbook](linux/software/gitbook.md)
+    * [clfs](linux/clfs/README.md)
+        * [learn_url](linux/clfs/learn_url.md)
 
