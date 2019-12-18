@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy|:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: set up node environment
+      uses: actions/setup-node@v1.1.0
+    - name: build source
+      run: |
+        npm install gitbook-cli -g
+        gitbook build
+    - name: deploy
+    - run: |
+        git checkout --orphan gh-pages
+        git rm --cached -r .
+        git clean -df
+        rm -rf *~
+        echo "*~" >> .gitignore
+        echo "_book" >> .gitignore
+        git add .gitignore
+        git commit -m "Ignore some files"
+        cp -r _book/* .
+        git add .
+        git commit -m "Publish book"
+        git push -f origin HEAD:gh-pages
+        
+        
+    
