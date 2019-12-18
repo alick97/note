@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - dev_**
 
 jobs:
   build-and-deploy:
@@ -20,6 +21,8 @@ jobs:
           gitbook build
       - name: deploy
         run: |
+          git config --global user.email "alick97@outlook.com"
+          git config --global user.name "ci"
           git checkout --orphan gh-pages
           git rm --cached -r .
           git clean -df
