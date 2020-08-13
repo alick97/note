@@ -7,4 +7,7 @@
         * [learn_url](linux/clfs/learn_url.md)
     * [vpn](linux/vpn/README.md)
         * [vpn_shadowsocks](linux/vpn/vpn_shadowsocks.md)
-
+* [language](language/README.md)
+    * [python](language/python/README.md)
+        * [lib](language/python/lib/README.md)
+            * [python-logging](language/python/lib/python_logging.md)
