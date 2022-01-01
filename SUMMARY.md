@@ -11,6 +11,9 @@
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
             * [python-logging](language/python/lib/python_logging.md)
+            * sqlalchemy
+              * issue
+                * [bulk_save_object twice](language/python/lib/sqlalchemy/issue-bulk-save-object-twice.md)
         * language
             * [python-singleton-metaclass-type](language/python/language/python-singleton-metaclass-type.md)
     * [cxx](language/cplusplus/README.md)

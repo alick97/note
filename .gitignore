@@ -3,3 +3,4 @@ _book
 
 # vscode
 .vscode
+.DS_Store
