@@ -7,6 +7,9 @@
         * [learn_url](linux/clfs/learn_url.md)
     * [vpn](linux/vpn/README.md)
         * [vpn_shadowsocks](linux/vpn/vpn_shadowsocks.md)
+    * ubuntu
+        * power
+            * [linux-laptop-battery-power-manager](linux/ubuntu/power/linux-laptop-battery-power-manager.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
