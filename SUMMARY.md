@@ -21,3 +21,5 @@
             * [python-singleton-metaclass-type](language/python/language/python-singleton-metaclass-type.md)
     * [cxx](language/cplusplus/README.md)
         * [cpp-shared_ptr-weak_ptr](language/cplusplus/cpp-shared_ptr-weak_ptr.md)
+* tools
+    * [vlc](tools/vlc.md)
