@@ -1,6 +1,6 @@
 plantuml
 
-created: 20220131 updated: 20220131 authors: alick
+created: 20220131 updated: 20220202 authors: alick
 
 ---
 
@@ -9,3 +9,4 @@ created: 20220131 updated: 20220131 authors: alick
 - [url](https://plantuml.com/en/)
 - [guide](https://plantuml.com/en/guide)
 - vscode plug: PlantUML
+- [inline into markdown](https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/) code type: plantuml
