@@ -1,5 +1,9 @@
 # static gitbook book file
 _book
+assets
+
+# js module
+node_modules
 
 # vscode
 .vscode

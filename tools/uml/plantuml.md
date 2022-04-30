@@ -13,3 +13,17 @@ created: 20220131 updated: 20220202 authors: alick
 
 #### pre install
 - some graph need install [graphviz](https://graphviz.org/download/)
+
+#### gitbook plugin
+> https://github.com/vowstar/gitbook-plugin-uml
+
+#### demo
+```puml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+```
