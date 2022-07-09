@@ -10,6 +10,9 @@
     * ubuntu
         * power
             * [linux-laptop-battery-power-manager](linux/ubuntu/power/linux-laptop-battery-power-manager.md)
+    * net
+        * attack
+            * [wifi-password-attack](linux/net/attack/wifi-password-attack.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
