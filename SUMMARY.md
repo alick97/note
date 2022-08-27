@@ -29,3 +29,4 @@
     * [ffmpeg](tools/ffmpeg.md)
     * uml
         * [plantuml](tools/uml/plantuml.md)
+    * [z](tools/z.md)
