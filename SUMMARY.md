@@ -10,6 +10,8 @@
     * ubuntu
         * power
             * [linux-laptop-battery-power-manager](linux/ubuntu/power/linux-laptop-battery-power-manager.md)
+        * setting
+            * [chinese input](linux/ubuntu/setting/input-chinese.md)
     * net
         * attack
             * [wifi-password-attack](linux/net/attack/wifi-password-attack.md)
