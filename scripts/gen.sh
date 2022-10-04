@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 echo "input title"
 read title
@@ -10,8 +11,8 @@ echo "input author"
 read author
 author=${author:=author}
 
-title_to_file_name=${title##*/}
-title_to_file_name=${title//[_ ]/-}
+title_to_file_name="${title##*/}"
+title_to_file_name="$(echo -n $title_to_file_name | sed -e 's/[ _]\+/-/g' -e 's/-\+/-/g')"
 
 file_path="tmp-$(date +%s)-${title_to_file_name}".md
 
