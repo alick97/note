@@ -15,6 +15,7 @@
     * net
         * attack
             * [wifi-password-attack](linux/net/attack/wifi-password-attack.md)
+        * [proxy-frp](linux/net/proxy-frp.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
