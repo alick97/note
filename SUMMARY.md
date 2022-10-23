@@ -33,3 +33,6 @@
     * uml
         * [plantuml](tools/uml/plantuml.md)
     * [z](tools/z.md)
+* windows
+    * service
+        * [openssh](windows/service/openssh.md)
