@@ -19,6 +19,8 @@
     * service
         * sshd
             * [sshd-auth-pasword delay](linux/service/sshd/sshd-auth-password-delay.md)
+    * ops
+        * [ansible](linux/ops/ansible.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
