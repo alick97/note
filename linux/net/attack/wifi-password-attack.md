@@ -1,6 +1,6 @@
 ### wifi wpa2 attack
 
-created: 20220709 updated: 20220806 authors: alick97
+created: 20220709 updated: 20221210 authors: alick97
 
 ---
 
@@ -9,7 +9,18 @@ created: 20220709 updated: 20220806 authors: alick97
 - [for mac os ] https://martinsjean256.wordpress.com/2018/02/12/hacking-aircrack-ng-on-mac-cracking-wi-fi-without-kali-in-parallels/
 - [for mac os] https://louisabraham.github.io/articles/WPA-wifi-cracking-MBP.html
 
+### packages install in ubuntu
+```
+sudo apt install aircrack-ng hashcat
 
+wget https://github.com/hashcat/hashcat-utils/archive/master.zip
+unzip master.zip
+cd hashcat-utils-master/src
+make
+# get cap2hccapx.bin
+```
+
+######
 ### 一些常见命令
 #### 常用指令
 ```
