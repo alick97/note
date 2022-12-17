@@ -24,6 +24,7 @@ jobs:
       - name: build source
         run: |
           npm install gitbook-cli@2.2.0 -g
+          npm install gitbook-plugin-uml
           gitbook install
           gitbook build
       - name: deploy
