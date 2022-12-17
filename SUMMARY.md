@@ -3,6 +3,8 @@
 * [linux](linux/README.md)
     * [software](linux/software/README.md)
         * [gitbook](linux/software/gitbook.md)
+        * git
+          * [git config ssh connection through proxy](linux/software/git/git-config-ssh-connection-through-proxy.md)
     * [clfs](linux/clfs/README.md)
         * [learn_url](linux/clfs/learn_url.md)
     * [vpn](linux/vpn/README.md)
