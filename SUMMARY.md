@@ -40,6 +40,7 @@
     * uml
         * [plantuml](tools/uml/plantuml.md)
     * [z](tools/z.md)
+    * [glow](tools/glow.md)
 * windows
     * service
         * [openssh](windows/service/openssh.md)
