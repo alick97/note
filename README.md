@@ -2,7 +2,11 @@
 ## this is alick's note book
 
 
-email: alick97@outlook.com
+email: [alick97@outlook.com](mailto:alick97@outlook.com?subject=Note%20Feedback)
+
+github: [https://github.com/alick97/note](https://github.com/alick97/note)
+
+online: [https://alick97.github.io/note](https://alick97.github.io/note)
 
 
 ---
