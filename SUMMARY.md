@@ -47,3 +47,5 @@
 * windows
     * service
         * [openssh](windows/service/openssh.md)
+* next
+    * [plan-2023](next/plan-2023.md)
