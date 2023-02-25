@@ -32,6 +32,8 @@
                 * [bulk_save_object twice](language/python/lib/sqlalchemy/issue-bulk-save-object-twice.md)
         * language
             * [python-singleton-metaclass-type](language/python/language/python-singleton-metaclass-type.md)
+        * profile
+            * [python-profile-tools](language/python/profile/python-profile-tools.md)
     * [cxx](language/cplusplus/README.md)
         * [cpp-shared_ptr-weak_ptr](language/cplusplus/cpp-shared_ptr-weak_ptr.md)
 * tools
