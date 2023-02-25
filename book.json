@@ -7,7 +7,8 @@
     "pluginsConfig": {
         "uml": {
           "format": "png",
-          "nailgun": false
+          "nailgun": false,
+          "config": "monochrome"
         }
     }
 }
