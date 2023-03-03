@@ -25,7 +25,7 @@ jobs:
           java-version: '11'
       - uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: calibre
+          packages: calibre language-pack-zh* language-pack-gnome-zh-hans*
           version: 1.0
       - name: build source
         run: |
