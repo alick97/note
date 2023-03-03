@@ -23,6 +23,7 @@ jobs:
           java-version: '11'
       - name: build source
         run: |
+          apt install calibre
           npm install gitbook-cli@2.2.0 -g
           npm install gitbook-plugin-uml
           gitbook install
