@@ -1,3 +1,10 @@
+### gitbook
+
+created: 20221001 updated: 20230305 authors: alick97
+
+---
+
+preview markdown file in cli
 ###### in ubuntu16.04
 
 #### 1. 安装 node.js
@@ -60,4 +67,21 @@ Use gitbook ls-remote to list remote versions available for install.
 You can use the options --log=debug and --debug to get better error messages (with stack trace). For example:
 ```
 $ gitbook build ./ --log=debug --debug
+```
+
+#### export to pdf
+#### prepartion in ubuntu
+```
+sudo apt install calibre
+```
+#### when use chinese, you need one chinese font at least for export to pdf
+
+You can simply run cmd below:
+```
+sudo apt install ttf-wqy-microhei
+```
+or download font files to ```~/.fonts``` and run ```fc-cache -f -v```
+#### run cmd
+```
+gitbook pdf ./ t.pdf
 ```
