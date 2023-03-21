@@ -5,6 +5,7 @@
         * [gitbook](linux/software/gitbook.md)
         * git
           * [git config ssh connection through proxy](linux/software/git/git-config-ssh-connection-through-proxy.md)
+        * [audiorelay use phone mic as pc mic](linux/software/audiorelay-use-phone-mic-as-pc-mic.md)
     * [clfs](linux/clfs/README.md)
         * [learn_url](linux/clfs/learn_url.md)
     * [vpn](linux/vpn/README.md)
