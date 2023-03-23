@@ -3,12 +3,24 @@
     "description": "this note is noting some technology and journal",
     "author": "alick",
     "language": "ch,en",
-    "plugins": ["uml"],
+    "plugins": ["uml", "rss"],
     "pluginsConfig": {
         "uml": {
           "format": "png",
           "nailgun": false,
           "config": "monochrome"
-        }
+        },
+        "rss": {
+          "title": "alick's note",
+          "description": "this note is noting some technology and journal",
+          "author": "alick",
+          "feed_url": "https://alick97.github.io/note/rss",
+          "site_url": "https://alick97.github.io/note/",
+          "managingEditor": "alick97@outlook.com",
+          "webMaster": "alick97@outlook.com",
+          "categories": [
+              "gitbook"
+          ]
+      }
     }
 }
