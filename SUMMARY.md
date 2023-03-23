@@ -3,50 +3,50 @@
 * [linux](linux/README.md)
     * [software](linux/software/README.md)
         * [gitbook](linux/software/gitbook.md)
-        * git
+        * [git](linux/software/git/README.md)
           * [git config ssh connection through proxy](linux/software/git/git-config-ssh-connection-through-proxy.md)
         * [audiorelay use phone mic as pc mic](linux/software/audiorelay-use-phone-mic-as-pc-mic.md)
     * [clfs](linux/clfs/README.md)
         * [learn_url](linux/clfs/learn_url.md)
     * [vpn](linux/vpn/README.md)
         * [vpn_shadowsocks](linux/vpn/vpn_shadowsocks.md)
-    * ubuntu
-        * power
+    * [ubuntu](linux/ubuntu/README.md)
+        * [power](linux/ubuntu/power/README.md)
             * [linux-laptop-battery-power-manager](linux/ubuntu/power/linux-laptop-battery-power-manager.md)
-        * setting
+        * [setting](linux/ubuntu/setting/README.md)
             * [chinese input](linux/ubuntu/setting/input-chinese.md)
-    * net
-        * attack
+    * [net](linux/net/README.md)
+        * [attack](linux/net/attack/README.md)
             * [wifi-password-attack](linux/net/attack/wifi-password-attack.md)
         * [proxy-frp](linux/net/proxy-frp.md)
-    * service
-        * sshd
+    * [service](linux/service/README.md)
+        * [sshd](linux/service/sshd/README.md)
             * [sshd-auth-pasword delay](linux/service/sshd/sshd-auth-password-delay.md)
-    * ops
+    * [ops](linux/ops/README.md)
         * [ansible](linux/ops/ansible.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
             * [python-logging](language/python/lib/python_logging.md)
-            * sqlalchemy
-              * issue
-                * [bulk_save_object twice](language/python/lib/sqlalchemy/issue-bulk-save-object-twice.md)
-        * language
+            * [sqlalchemy](language/python/lib/sqlalchemy/README.md)
+              * [issue](language/python/lib/sqlalchemy/issue/README.md)
+                * [bulk_save_object twice](language/python/lib/sqlalchemy/issue/issue-bulk-save-object-twice.md)
+        * [language](language/python/language/README.md)
             * [python-singleton-metaclass-type](language/python/language/python-singleton-metaclass-type.md)
-        * profile
+        * [profile](language/python/profile/README.md)
             * [python-profile-tools](language/python/profile/python-profile-tools.md)
     * [cxx](language/cplusplus/README.md)
         * [cpp-shared_ptr-weak_ptr](language/cplusplus/cpp-shared_ptr-weak_ptr.md)
-* tools
+* [tools](tools/README.md)
     * [vlc](tools/vlc.md)
     * [ffmpeg](tools/ffmpeg.md)
-    * uml
+    * [uml](tools/uml/README.md)
         * [plantuml](tools/uml/plantuml.md)
     * [z](tools/z.md)
     * [glow](tools/glow.md)
     * [goldendict](tools/goldendict.md)
-* windows
-    * service
+* [windows](windows/README.md)
+    * [service](windows/service/README.md)
         * [openssh](windows/service/openssh.md)
-* next
+* [next](next/README.md)
     * [plan-2023](next/plan-2023.md)

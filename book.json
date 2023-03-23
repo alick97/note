@@ -3,7 +3,7 @@
     "description": "this note is noting some technology and journal",
     "author": "alick",
     "language": "ch,en",
-    "plugins": ["uml", "rss"],
+    "plugins": ["uml", "rss", "expandable-chapters-small"],
     "pluginsConfig": {
         "uml": {
           "format": "png",
