@@ -44,6 +44,8 @@
     * [ffmpeg](tools/ffmpeg.md)
     * [uml](tools/uml/README.md)
         * [plantuml](tools/uml/plantuml.md)
+    * [vpn](tools/vpn/README.md)
+        * [vpn server tailscale](tools/vpn/vpn-tailscale.md)
     * [z](tools/z.md)
     * [glow](tools/glow.md)
     * [goldendict](tools/goldendict.md)
