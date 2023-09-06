@@ -28,7 +28,7 @@ jobs:
           sudo apt install -y ttf-wqy-microhei calibre
           npm install gitbook-cli@2.2.0 -g
           npm install gitbook-plugin-uml
-          npm install svgexport -g
+          npm install svgexport -g -unsafe-perm=true
           gitbook install
           gitbook build
           gitbook pdf ./ note.pdf
