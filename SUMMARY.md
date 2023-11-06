@@ -50,6 +50,8 @@
     * [z](tools/z.md)
     * [glow](tools/glow.md)
     * [goldendict](tools/goldendict.md)
+    * [net](tools/net/README.md)
+        * [net diagnostic tool](tools/net/net-diagnostic-tool.md)
 * [windows](windows/README.md)
     * [service](windows/service/README.md)
         * [openssh](windows/service/openssh.md)
