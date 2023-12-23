@@ -4,6 +4,7 @@
 * [linux](linux/README.md)
     * [software](linux/software/README.md)
         * [gitbook](linux/software/gitbook.md)
+        * [honkit gitbook alternatives](linux/software/honkit-gitbook-alternatives.md)
         * [git](linux/software/git/README.md)
             * [git config ssh connection through proxy](linux/software/git/git-config-ssh-connection-through-proxy.md)
         * [audiorelay use phone mic as pc mic](linux/software/audiorelay-use-phone-mic-as-pc-mic.md)

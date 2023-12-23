@@ -3,6 +3,7 @@
 created: 20221001 updated: 20230305 authors: alick97
 
 ---
+> note: gitbook-cli is legacy, suggest using [honkit](https://github.com/honkit/honkit) which is gitbook alternatives
 
 preview markdown file in cli
 ###### in ubuntu16.04
