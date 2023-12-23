@@ -2,8 +2,8 @@
     "title": "alick's note",
     "description": "this note is noting some technology and journal",
     "author": "alick",
-    "language": "ch,en",
-    "plugins": ["uml", "rss", "expandable-chapters-small"],
+    "language": "zh,en",
+    "plugins": ["uml", "collapsible-menu", "rss"],
     "pluginsConfig": {
         "uml": {
           "format": "png",
@@ -19,8 +19,8 @@
           "managingEditor": "alick97@outlook.com",
           "webMaster": "alick97@outlook.com",
           "categories": [
-              "gitbook"
+              "book", "tools", "develop"
           ]
-      }
+        }
     }
 }

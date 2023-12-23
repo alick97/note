@@ -1,13 +1,14 @@
 # Summary
+
 * [Introduction](README.md)
 * [linux](linux/README.md)
     * [software](linux/software/README.md)
         * [gitbook](linux/software/gitbook.md)
         * [git](linux/software/git/README.md)
-          * [git config ssh connection through proxy](linux/software/git/git-config-ssh-connection-through-proxy.md)
+            * [git config ssh connection through proxy](linux/software/git/git-config-ssh-connection-through-proxy.md)
         * [audiorelay use phone mic as pc mic](linux/software/audiorelay-use-phone-mic-as-pc-mic.md)
         * [android](linux/software/android/README.md)
-          * [android terminal emulator termux](linux/software/android/android-terminal-emulator-termux.md)
+            * [android terminal emulator termux](linux/software/android/android-terminal-emulator-termux.md)
     * [clfs](linux/clfs/README.md)
         * [learn_url](linux/clfs/learn_url.md)
     * [vpn](linux/vpn/README.md)
@@ -32,8 +33,8 @@
         * [lib](language/python/lib/README.md)
             * [python-logging](language/python/lib/python_logging.md)
             * [sqlalchemy](language/python/lib/sqlalchemy/README.md)
-              * [issue](language/python/lib/sqlalchemy/issue/README.md)
-                * [bulk_save_object twice](language/python/lib/sqlalchemy/issue/issue-bulk-save-object-twice.md)
+                * [issue](language/python/lib/sqlalchemy/issue/README.md)
+                    * [bulk_save_object twice](language/python/lib/sqlalchemy/issue/issue-bulk-save-object-twice.md)
         * [language](language/python/language/README.md)
             * [python-singleton-metaclass-type](language/python/language/python-singleton-metaclass-type.md)
         * [profile](language/python/profile/README.md)
@@ -57,3 +58,4 @@
         * [openssh](windows/service/openssh.md)
 * [next](next/README.md)
     * [plan-2023](next/plan-2023.md)
+

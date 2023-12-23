@@ -26,11 +26,9 @@ jobs:
       - name: build source
         run: |
           sudo apt install -y ttf-wqy-microhei calibre
-          npm install gitbook-cli@2.2.0 -g
-          npm install gitbook-plugin-uml
-          gitbook install
-          gitbook build
-          gitbook pdf ./ note.pdf
+          npm i
+          npx honkit build
+          npx honkit pdf ./ ./note.pdf
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
