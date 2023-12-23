@@ -1,4 +1,4 @@
-### sshd-auth-password-delay
+# sshd-auth-password-delay
 
 created: 20221030 updated: 20221030 authors: allick97
 

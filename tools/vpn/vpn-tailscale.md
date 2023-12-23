@@ -1,4 +1,4 @@
-### vpn server tailscale
+# vpn server tailscale
 
 created: 20230611 updated: 20230611 authors: alick97
 

@@ -1,4 +1,4 @@
-### audiorelay-use-phone-mic-as-pc-mic
+# audiorelay-use-phone-mic-as-pc-mic
 
 created: 20230322 updated: 20230322 authors: alick97
 

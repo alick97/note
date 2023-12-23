@@ -1,4 +1,4 @@
-### android terminal emulator termux
+# android terminal emulator termux
 
 created: 20230325 updated: 20230325 authors: alick97
 

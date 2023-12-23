@@ -1,4 +1,4 @@
-### git-config-ssh-connection-through-proxy
+# git-config-ssh-connection-through-proxy
 
 created: 20221217 updated: 20221217 authors: alick97
 

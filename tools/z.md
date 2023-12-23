@@ -1,4 +1,4 @@
-### Shell directory jump tools [z]
+# Shell directory jump tools [z]
 
 created: 20220828 updated: 20220828 authors: alick97
 

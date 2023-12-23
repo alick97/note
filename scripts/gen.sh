@@ -16,7 +16,7 @@ title_to_file_name="$(echo -n $title_to_file_name | sed -e 's/[ _]\+/-/g' -e 's/
 
 file_path="tmp-$(date +%s)-${title_to_file_name}".md
 
-echo "### $title" >> $file_path
+echo "# $title" >> $file_path
 echo "" >> $file_path
 echo "created: ${now_date_str} updated: ${now_date_str} authors: ${author}" >> $file_path
 echo "" >> $file_path

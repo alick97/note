@@ -1,4 +1,4 @@
-#### ubuntu 设置过程记录
+# ubuntu 设置过程记录
 1. 安装 shadowsocket
 ```
 sudo apt-get install python-pip

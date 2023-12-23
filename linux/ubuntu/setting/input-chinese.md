@@ -1,4 +1,4 @@
-### 中文输入法
+# 中文输入法
 
 created: 20221001 updated: 20221130 authors: alick97
 
