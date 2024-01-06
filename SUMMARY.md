@@ -29,6 +29,8 @@
             * [sshd-auth-pasword delay](linux/service/sshd/sshd-auth-password-delay.md)
     * [ops](linux/ops/README.md)
         * [ansible](linux/ops/ansible.md)
+    * [qemu](linux/qemu/README.md)
+        * [run ubuntu in qemu with kvm](linux/qemu/run-ubuntu-in-qemu-with-kvm.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
