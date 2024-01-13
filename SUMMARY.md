@@ -31,6 +31,8 @@
         * [ansible](linux/ops/ansible.md)
     * [qemu](linux/qemu/README.md)
         * [run ubuntu in qemu with kvm](linux/qemu/run-ubuntu-in-qemu-with-kvm.md)
+    * [kernel](linux/kernel/README.md)
+        * [linux capabilities](linux/kernel/linux-capabilities.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
