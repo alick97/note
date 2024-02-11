@@ -33,6 +33,8 @@
         * [run ubuntu in qemu with kvm](linux/qemu/run-ubuntu-in-qemu-with-kvm.md)
     * [kernel](linux/kernel/README.md)
         * [linux capabilities](linux/kernel/linux-capabilities.md)
+    * [memory](linux/memory/README.md)
+        * [create and remove linux swap](linux/memory/create-and-remove-linux-swap.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
