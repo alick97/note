@@ -64,6 +64,9 @@
 * [windows](windows/README.md)
     * [service](windows/service/README.md)
         * [openssh](windows/service/openssh.md)
+* [web](web/README.md)
+  * [attack](web/attack/README.md)
+      * [web csrf and cookie](web/attack/web-csrf-and-cookie.md)
 * [next](next/README.md)
     * [plan-2023](next/plan-2023.md)
 
