@@ -61,6 +61,8 @@
     * [net](tools/net/README.md)
         * [net diagnostic tool](tools/net/net-diagnostic-tool.md)
         * [net linux tunnel](tools/net/net-linux-tunnel.md)
+    * [editor](tools/editor/README.md)
+        * [neovim lazyvim](tools/editor/neovim-lazyvim.md)
 * [windows](windows/README.md)
     * [service](windows/service/README.md)
         * [openssh](windows/service/openssh.md)
