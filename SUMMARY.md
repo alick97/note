@@ -67,6 +67,8 @@
 * [windows](windows/README.md)
     * [service](windows/service/README.md)
         * [openssh](windows/service/openssh.md)
+    * [net](windows/net/README.md)
+        * [windows config hosts](windows/net/windows-config-hosts.md)
 * [web](web/README.md)
   * [attack](web/attack/README.md)
       * [web csrf and cookie](web/attack/web-csrf-and-cookie.md)
