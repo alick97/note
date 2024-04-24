@@ -24,6 +24,7 @@
             * [wifi-password-attack](linux/net/attack/wifi-password-attack.md)
         * [proxy-frp](linux/net/proxy-frp.md)
         * [net state](linux/net/net-state.md)
+        * [iptables use linux as windows gateway and forward target connect to linux local port](linux/net/iptables-use-linux-as-windows-gateway-and-forward-target-connect-to-linux-local-port.md)
     * [service](linux/service/README.md)
         * [sshd](linux/service/sshd/README.md)
             * [sshd-auth-pasword delay](linux/service/sshd/sshd-auth-password-delay.md)
