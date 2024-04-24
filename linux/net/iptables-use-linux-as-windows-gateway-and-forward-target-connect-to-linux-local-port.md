@@ -32,7 +32,11 @@ dns server
 ```
 sysctl -w net.ipv4.ip_forward=1
 ```
-- config redirect rule by iptables
+- config gateway rule by iptables, wlo1 is net out interface
+```
+sudo iptables -t nat -A POSTROUTING -s 192.168.31.172 -o wlo1  -j MASQUERADE
+```
+- config redirect rule by iptables for special windows10 connect
 ```
 sudo iptables -t nat -A PREROUTING -p tcp -d 112.60.14.252 --dport 6666 -j DNAT --to 192.168.31.158:7777
 sudo service iptables restart
