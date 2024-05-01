@@ -21,8 +21,11 @@ SHA256(stdin)= aff988906dde12955d9bebbf928fdcc31cce328d5b9384f21c8941ca26e20391
 ```
 
 
-
+#### Reference
 > https://en.wikipedia.org/wiki/X.509
+
 > https://en.wikipedia.org/wiki/Public_key_certificate
+
 > https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security
+
 > https://daniel.haxx.se/blog/2018/11/07/get-the-ca-cert-for-curl/
