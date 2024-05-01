@@ -73,6 +73,8 @@
 * [web](web/README.md)
   * [attack](web/attack/README.md)
       * [web csrf and cookie](web/attack/web-csrf-and-cookie.md)
+  * [security](web/security/README.md)
+      * [web ceritificate authority (CA)](web/security/web-certificate-authority-(CA).md)
 * [next](next/README.md)
     * [plan-2023](next/plan-2023.md)
 
