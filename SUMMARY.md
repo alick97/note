@@ -12,6 +12,8 @@
             * [android terminal emulator termux](linux/software/android/android-terminal-emulator-termux.md)
     * [clfs](linux/clfs/README.md)
         * [learn_url](linux/clfs/learn_url.md)
+    * [file system](linux/file_system/README.md)
+        * [fat32 file system](linux/file_system/fat32_file_system.md)
     * [vpn](linux/vpn/README.md)
         * [vpn_shadowsocks](linux/vpn/vpn_shadowsocks.md)
     * [ubuntu](linux/ubuntu/README.md)
@@ -74,7 +76,7 @@
   * [attack](web/attack/README.md)
       * [web csrf and cookie](web/attack/web-csrf-and-cookie.md)
   * [security](web/security/README.md)
-      * [web ceritificate authority (CA)](web/security/web-certificate-authority-(CA).md)
+      * [web ceritificate authority \(CA\)](web/security/web-certificate-authority-(CA).md)
 * [next](next/README.md)
     * [plan-2023](next/plan-2023.md)
 
