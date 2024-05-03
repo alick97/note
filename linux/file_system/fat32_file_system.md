@@ -70,6 +70,7 @@ Hex View  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
 - sector size in 0x0b(2).
 - find align 0x0e(2) value is 32, so align is 32 * 512 = 0x4000  512 is sector size.
 - value  
+
 ```
 Hex View  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
  
@@ -84,6 +85,7 @@ Hex View  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
 - has 2 fat table 0x10(1)=2, one table size 0x24(4) = 158 sector, 158 * 512 = 0x13c00
 - 0x4000 + (0x13c00 * 2) = 0x2b800
 - value
+
 ```
 Hex View  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
  
@@ -107,7 +109,8 @@ Hex View  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
 
 #### read file_aaa.txt example code, run as root
 - read_file_aaa.c
-```
+
+```c
 #include <sys/types.h>
 #include <unistd.h>
 #include <sys/stat.h>
@@ -156,6 +159,7 @@ int main() {
 }
 ```
 - result
+
 ```
 data pos:    2b800
 ----: 00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 
