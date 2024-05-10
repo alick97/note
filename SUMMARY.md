@@ -47,6 +47,7 @@
                     * [bulk_save_object twice](language/python/lib/sqlalchemy/issue/issue-bulk-save-object-twice.md)
         * [language](language/python/language/README.md)
             * [python-singleton-metaclass-type](language/python/language/python-singleton-metaclass-type.md)
+            * [python timestamp with time zone](language/python/language/python-timestamp-with-time-zone.md)
         * [profile](language/python/profile/README.md)
             * [python-profile-tools](language/python/profile/python-profile-tools.md)
     * [cxx](language/cplusplus/README.md)
