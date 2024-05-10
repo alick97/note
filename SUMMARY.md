@@ -78,6 +78,9 @@
       * [web csrf and cookie](web/attack/web-csrf-and-cookie.md)
   * [security](web/security/README.md)
       * [web ceritificate authority (CA)](web/security/web-certificate-authority-CA.md)
+* [database](database/README.md)
+  * [mysql](database/mysql/README.md)
+    * [mysql timestamp field with time zone](database/mysql/mysql-timestamp-field-with-time-zone.md)
 * [next](next/README.md)
     * [plan-2023](next/plan-2023.md)
 
