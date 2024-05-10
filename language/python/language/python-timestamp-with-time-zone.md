@@ -36,4 +36,5 @@ from Asia/Shanghai tz timestamp, datetime: 2024-05-11 08:00:00+08:00, tzinfo: As
 ##### conclusion
 - note when tz is utc, fromtimestamp parse datetime is with tz and show as utc datetime
 - when tz is Asia/Shanghai or is None (use default system time zone +08:00), it parse tiemstamp result is same as d ```d = datetime(2024, 5, 11, 8, 0, 0)```. so when use datetime.fromtimestamp without param tz, is result is effect by system timezone
-- but datetime.timestamp() is not effect by system timezone, timestamp is std, when datetime is with tz or not. see d and d_with_tz to timestamp is same 1715385600.
+- but datetime.timestamp() is effect by system timezone  when datetime is without tz, it use system tz.
+  when datetime with tz, datetime.timestamp() is not effect by system tz.
