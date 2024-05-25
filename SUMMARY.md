@@ -68,6 +68,7 @@
     * [editor](tools/editor/README.md)
         * [neovim lazyvim](tools/editor/neovim-lazyvim.md)
     * [database gui tools](tools/database-gui-tools.md)
+    * [peek a git recorder](tools/peek-a-gif-recorder.md)
 * [windows](windows/README.md)
     * [service](windows/service/README.md)
         * [openssh](windows/service/openssh.md)
