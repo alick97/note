@@ -20,10 +20,11 @@ created: 20240719 updated: 20240719 authors: author
 
 #### setup in win10
 - install dummy root CA to win10. 
-> [import certificate to trusted root authorities](https://superuser.com/questions/1596453/import-certificate-to-trusted-root-authorities-for-the-current-user-with-comman)
+    > [import certificate to trusted root authorities](https://superuser.com/questions/1596453/import-certificate-to-trusted-root-authorities-for-the-current-user-with-comman)
 
-> [example in chinese language link](https://cnzhx.net/blog/self-signed-certificate-as-trusted-root-ca-in-windows/)
+    > [example in chinese language link](https://cnzhx.net/blog/self-signed-certificate-as-trusted-root-ca-in-windows/)
 - set win10 net proxy to software reqable
+
 ```
 To set up a proxy manually:
 
