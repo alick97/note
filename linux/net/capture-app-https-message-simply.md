@@ -44,4 +44,4 @@ Click Save, then close the Settings window.
 
 #### reference
 - [https](https://en.wikipedia.org/wiki/HTTPS)
-- [other good mitm toos mitmproxy](https://github.com/mitmproxy/mitmproxy)
+- [other good mitm tools mitmproxy](https://github.com/mitmproxy/mitmproxy)
