@@ -39,6 +39,8 @@
         * [linux capabilities](linux/kernel/linux-capabilities.md)
     * [memory](linux/memory/README.md)
         * [create and remove linux swap](linux/memory/create-and-remove-linux-swap.md)
+    * [android](linux/android/README.md)
+        * [decompiler android app](linux/android/decompiler-android-app.md)
 * [language](language/README.md)
     * [python](language/python/README.md)
         * [lib](language/python/lib/README.md)
