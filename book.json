@@ -6,7 +6,7 @@
     "plugins": ["uml", "collapsible-menu", "rss", "meta"],
     "pluginsConfig": {
         "uml": {
-          "format": "png",
+          "format": "svg",
           "nailgun": false,
           "config": "monochrome"
         },
