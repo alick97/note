@@ -3,7 +3,7 @@
     "description": "this note is noting some technology and journal",
     "author": "alick",
     "language": "zh,en",
-    "plugins": ["uml", "collapsible-menu", "rss"],
+    "plugins": ["uml", "collapsible-menu", "rss", "meta"],
     "pluginsConfig": {
         "uml": {
           "format": "png",
@@ -21,6 +21,10 @@
           "categories": [
               "book", "tools", "develop"
           ]
+        },
+        "meta": {
+          "name": "google-site-verification",
+          "content": "Evl2azuihSf9pszzu46U60S_nOgQi51skaWAYkVpzv0"
         }
     }
 }
