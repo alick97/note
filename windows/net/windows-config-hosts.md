@@ -1,6 +1,6 @@
 # windows-config-hosts
 
-created: 20240411 updated: 20240411 authors: alick
+{% tag 'created','20240411' %} {% endtag %} {% tag 'updated','20240411' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

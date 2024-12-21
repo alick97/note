@@ -1,6 +1,6 @@
 # vlc
 
-created: 20220126 updated: 20220126 authors: alick97
+{% tag 'created','20220126' %} {% endtag %} {% tag 'updated','20220126' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 #### official link

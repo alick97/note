@@ -1,6 +1,6 @@
 # python profile tools
 
-created: 20230225 updated: 20230225 authors: alick97
+{% tag 'created','20230225' %} {% endtag %} {% tag 'updated','20230225' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

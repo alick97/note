@@ -1,6 +1,6 @@
 # ansible
 
-created: 20221123 updated: 20221126 authors: alick97
+{% tag 'created','20221123' %} {% endtag %} {% tag 'updated','20221126' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

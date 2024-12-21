@@ -1,6 +1,6 @@
 # run ubuntu in qemu with kvm
 
-created: 20240107 updated: 20240107 authors: alick
+{% tag 'created','20240107' %} {% endtag %} {% tag 'updated','20240107' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

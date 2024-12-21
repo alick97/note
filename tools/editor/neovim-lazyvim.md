@@ -1,6 +1,6 @@
 # neovim lazyvim
 
-created: 20240215 updated: 20240215 authors: alick97
+{% tag 'created','20240215' %} {% endtag %} {% tag 'updated','20240215' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

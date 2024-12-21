@@ -1,6 +1,6 @@
 # fat32 file system
 
-created: 20240503 updated: 20240503 authors: alick97
+{% tag 'created','20240503' %} {% endtag %} {% tag 'updated','20240503' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

@@ -1,6 +1,6 @@
 plantuml
 
-created: 20220131 updated: 20220202 authors: alick
+{% tag 'created','20220131' %} {% endtag %} {% tag 'updated','20220202' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

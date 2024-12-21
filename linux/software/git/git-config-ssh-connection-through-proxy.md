@@ -1,6 +1,6 @@
 # git-config-ssh-connection-through-proxy
 
-created: 20221217 updated: 20221217 authors: alick97
+{% tag 'created','20221217' %} {% endtag %} {% tag 'updated','20221217' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

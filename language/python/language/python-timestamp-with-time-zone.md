@@ -1,6 +1,6 @@
 # python timestamp with time_zone
 
-created: 20240511 updated: 20240511 authors: alick
+{% tag 'created','20240511' %} {% endtag %} {% tag 'updated','20240511' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

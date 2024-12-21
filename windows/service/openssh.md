@@ -1,6 +1,6 @@
 # openssh
 
-created: 20221023 updated: 20221023 authors: alick
+{% tag 'created','20221023' %} {% endtag %} {% tag 'updated','20221023' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

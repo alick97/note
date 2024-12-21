@@ -1,6 +1,6 @@
 # 中文输入法
 
-created: 20221001 updated: 20221130 authors: alick97
+{% tag 'created','20221001' %} {% endtag %} {% tag 'updated','20221130' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

@@ -1,6 +1,6 @@
 # linux capabilities
 
-created: 20240113 updated: 20240113 authors: alick97
+{% tag 'created','20240113' %} {% endtag %} {% tag 'updated','20240113' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

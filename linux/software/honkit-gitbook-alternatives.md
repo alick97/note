@@ -1,6 +1,6 @@
 # honkit gitbook alternatives
 
-created: 20231223 updated: 20231223 authors: alick
+{% tag 'created','20231223' %} {% endtag %} {% tag 'updated','20231223' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

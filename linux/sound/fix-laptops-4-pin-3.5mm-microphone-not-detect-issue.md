@@ -1,6 +1,6 @@
 # fix laptops 4 pin 3.5mm microphone is not detected issue
 
-created: 20241117 updated: 20241117 authors: alick97
+{% tag 'created','20241117' %} {% endtag %} {% tag 'updated','20241117' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
    
 ---
 

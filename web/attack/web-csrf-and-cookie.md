@@ -1,6 +1,6 @@
 # web csrf and cookie
 
-created: 20240214 updated: 20240214 authors: alick97
+{% tag 'created','20240214' %} {% endtag %} {% tag 'updated','20240214' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

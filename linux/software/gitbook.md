@@ -1,6 +1,6 @@
 # gitbook
 
-created: 20221001 updated: 20230305 authors: alick97
+{% tag 'created','20221001' %} {% endtag %} {% tag 'updated','20230305' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 > note: gitbook-cli is legacy, suggest using [honkit](https://github.com/honkit/honkit) which is gitbook alternatives

@@ -1,6 +1,6 @@
 # capture app https message simply
 
-created: 20240719 updated: 20240719 authors: alick
+{% tag 'created','20240719' %} {% endtag %} {% tag 'updated','20240719' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

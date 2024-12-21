@@ -1,6 +1,6 @@
 # net-state
 
-created: 20230827 updated: 20230827 authors: alick97
+{% tag 'created','20230827' %} {% endtag %} {% tag 'updated','20230827' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

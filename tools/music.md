@@ -1,6 +1,6 @@
 # music
 
-created: 20241116 updated: 20241116 authors: alick97
+{% tag 'created','20241116' %} {% endtag %} {% tag 'updated','20241116' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

@@ -1,7 +1,7 @@
 
 ### python3 singleton metaclass 实现以及 对象模型
 
-created: 20200920 updated: 20200920 author: alick97
+{% tag 'created','20200920' %} {% endtag %} {% tag 'updated','20200920' %} {% endtag %} author: alick97
 
 ----
 示例代码 运行python3.8中:

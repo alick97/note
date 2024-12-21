@@ -1,6 +1,6 @@
 # vpn server tailscale
 
-created: 20230611 updated: 20230611 authors: alick97
+{% tag 'created','20230611' %} {% endtag %} {% tag 'updated','20230611' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

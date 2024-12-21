@@ -1,6 +1,6 @@
 # wifi wpa2 attack
 
-created: 20220709 updated: 20221210 authors: alick97
+{% tag 'created','20220709' %} {% endtag %} {% tag 'updated','20221210' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

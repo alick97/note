@@ -1,6 +1,6 @@
 # net diagnostic tool
 
-created: 20231107 updated: 20231107 authors: alick
+{% tag 'created','20231107' %} {% endtag %} {% tag 'updated','20231107' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

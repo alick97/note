@@ -1,6 +1,6 @@
 # create or resize linux swap
 
-created: 20240211 updated: 20240211 authors: alick97
+{% tag 'created','20240211' %} {% endtag %} {% tag 'updated','20240211' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 ### how to resize swap

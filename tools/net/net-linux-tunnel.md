@@ -1,6 +1,6 @@
 # net linux tunnel
 
-created: 20240114 updated: 20240114 authors: alick97
+{% tag 'created','20240114' %} {% endtag %} {% tag 'updated','20240114' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 ### link

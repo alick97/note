@@ -1,6 +1,6 @@
 # iptables use linux as windows gateway and forward target connect to linux local port
 
-created: 20240425 updated: 20240425 authors: alick97
+{% tag 'created','20240425' %} {% endtag %} {% tag 'updated','20240425' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

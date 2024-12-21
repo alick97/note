@@ -1,6 +1,6 @@
 # database gui tools
 
-created: 20240330 updated: 20240330 authors: alick
+{% tag 'created','20240330' %} {% endtag %} {% tag 'updated','20240330' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}
 
 ---
 

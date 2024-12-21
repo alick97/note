@@ -1,6 +1,6 @@
 # android terminal emulator termux
 
-created: 20230325 updated: 20230325 authors: alick97
+{% tag 'created','20230325' %} {% endtag %} {% tag 'updated','20230325' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 [termux official link](https://termux.dev/en/)

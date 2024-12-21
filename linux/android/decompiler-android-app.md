@@ -1,6 +1,6 @@
 # decompiler android app
 
-created: 20240723 updated: 20240723 authors: alick97
+{% tag 'created','20240723' %} {% endtag %} {% tag 'updated','20240723' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 - unzip app file

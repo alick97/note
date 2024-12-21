@@ -1,6 +1,6 @@
 # Shell directory jump tools [z]
 
-created: 20220828 updated: 20220828 authors: alick97
+{% tag 'created','20220828' %} {% endtag %} {% tag 'updated','20220828' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 

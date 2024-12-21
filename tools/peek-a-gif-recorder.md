@@ -1,6 +1,6 @@
 # peek a gif recorder
 
-created: 20240525 updated: 20240525 authors: alick97
+{% tag 'created','20240525' %} {% endtag %} {% tag 'updated','20240525' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}
 
 ---
 
