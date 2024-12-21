@@ -49,6 +49,7 @@ jobs:
           git add .gitignore
           git commit -m "Ignore some files"
           cp -r _book/* .
+          touch .nojekyll
           git add .
           git commit -m "Publish book"
           git push -f origin HEAD:gh-pages
