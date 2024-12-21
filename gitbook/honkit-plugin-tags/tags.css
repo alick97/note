@@ -1,0 +1,56 @@
+#original-search-result {
+  display: none;  
+}
+
+#original-search-result.active {
+  display: block; 
+}
+
+
+#tags-container {
+  display: none;
+}
+
+#tags-container.active {
+  display: block;
+}
+
+#tags-link :hover {
+  text-decoration: underline;
+}
+
+.tags-items {
+  display: flex;
+  overflow-x: auto;
+  margin: 5px 0px;
+}
+
+
+.tags-items span {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.tags-items span.active {
+  color: #008cff;
+}
+
+
+#tags-page-list {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.tags-page-item {
+  padding: 5px;
+  margin: 5px 0px;
+}
+
+.tags-page-item:before {
+  content: '-';
+  margin-right: 5px;
+}
