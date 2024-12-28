@@ -3,7 +3,7 @@
     "description": "this note is noting some technology and journal",
     "author": "alick",
     "language": "zh,en",
-    "plugins": ["uml", "collapsible-menu", "rss", "meta", "tags"],
+    "plugins": ["uml", "collapsible-menu", "rss", "meta", "tags", "sitemap"],
     "pluginsConfig": {
         "uml": {
           "format": "svg",
@@ -25,6 +25,10 @@
         "meta": {
           "name": "google-site-verification",
           "content": "Evl2azuihSf9pszzu46U60S_nOgQi51skaWAYkVpzv0"
+        },
+        "sitemap": {
+          "url": "https://alick97.github.io",
+          "pathSuffix": "/note/"
         }
     }
 }
