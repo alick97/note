@@ -23,8 +23,16 @@
           ]
         },
         "meta": {
-          "name": "google-site-verification",
-          "content": "Evl2azuihSf9pszzu46U60S_nOgQi51skaWAYkVpzv0"
+          "data": [
+            {
+              "name": "google-site-verification",
+              "content": "Evl2azuihSf9pszzu46U60S_nOgQi51skaWAYkVpzv0"
+            },
+            {
+              "name": "msvalidate.01",
+              "content": "AB6F5319FFEB25A55D21BD87CD168377"
+            }
+          ]
         },
         "sitemap": {
           "url": "https://alick97.github.io",
