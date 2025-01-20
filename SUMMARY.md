@@ -75,6 +75,7 @@
     * [database gui tools](tools/database-gui-tools.md)
     * [peek a git recorder](tools/peek-a-gif-recorder.md)
     * [music](tools/music.md)
+    * [midi-tools](tools/midi-tools.md)
 * [windows](windows/README.md)
     * [service](windows/service/README.md)
         * [openssh](windows/service/openssh.md)

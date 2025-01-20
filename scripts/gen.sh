@@ -18,7 +18,7 @@ file_path="tmp-$(date +%s)-${title_to_file_name}".md
 
 echo "# $title" >> $file_path
 echo "" >> $file_path
-echo "created: ${now_date_str} updated: ${now_date_str} authors: ${author}" >> $file_path
+echo "{% tag 'created','${now_date_str}' %} {% endtag %} {% tag 'updated','${now_date_str}' %} {% endtag %} {% tag 'authors','${author}' %} {% endtag %}" >> $file_path
 echo "" >> $file_path
 echo "---" >> $file_path
 echo "" >> $file_path
