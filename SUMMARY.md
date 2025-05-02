@@ -21,6 +21,7 @@
             * [linux-laptop-battery-power-manager](linux/ubuntu/power/linux-laptop-battery-power-manager.md)
         * [setting](linux/ubuntu/setting/README.md)
             * [chinese input](linux/ubuntu/setting/input-chinese.md)
+            * [english input](linux/ubuntu/setting/english-input.md)
     * [net](linux/net/README.md)
         * [attack](linux/net/attack/README.md)
             * [wifi-password-attack](linux/net/attack/wifi-password-attack.md)
