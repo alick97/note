@@ -9,6 +9,7 @@
 ```
 # 1090 width, 2048 height
 adb shell wm size 1090x2048
+adb shell wm size reset
 
 ```
 
