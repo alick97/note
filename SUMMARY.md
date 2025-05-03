@@ -42,6 +42,7 @@
         * [create and remove linux swap](linux/memory/create-and-remove-linux-swap.md)
     * [android](linux/android/README.md)
         * [decompiler android app](linux/android/decompiler-android-app.md)
+        * [android adb cheatsheet](linux/android/android-adb-cheatsheet.md)
     * [sound](linux/sound/README.md)
         * [fix laptops 4 pin 3.5mm microphone is not detect issue](linux/sound/fix-laptops-4-pin-3.5mm-microphone-not-detect-issue.md)
 * [language](language/README.md)
