@@ -13,20 +13,21 @@ conda deactivate
 - find version
 ```
 conda env list
-conda run -n innolabMes python --version
+conda run -n env1 python --version
 ```
 - create env
 ```
-conda create --name dh_erp python=3.10.4
+conda create --name env2 python=3.10.4
 
 ```
 
 - active env
 ```
-conda activate dh_erp
+conda activate env2
 ```
 
 - has other err need
+
 ```
 source $(conda info --base)/etc/profile.d/conda.sh
 
