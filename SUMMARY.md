@@ -57,6 +57,8 @@
             * [python timestamp with time zone](language/python/language/python-timestamp-with-time-zone.md)
         * [profile](language/python/profile/README.md)
             * [python-profile-tools](language/python/profile/python-profile-tools.md)
+        * [environment](language/python/environment/README.md)
+            * [python conda environment](language/python/environment/python-conda-environment.md)
     * [cxx](language/cplusplus/README.md)
         * [cpp-shared_ptr-weak_ptr](language/cplusplus/cpp-shared_ptr-weak_ptr.md)
 * [tools](tools/README.md)
