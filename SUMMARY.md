@@ -74,6 +74,7 @@
     * [net](tools/net/README.md)
         * [net diagnostic tool](tools/net/net-diagnostic-tool.md)
         * [net linux tunnel](tools/net/net-linux-tunnel.md)
+        * [net cloudflare network tunnels](tools/net/cloudflare-network-tunnels.md)
     * [editor](tools/editor/README.md)
         * [neovim lazyvim](tools/editor/neovim-lazyvim.md)
     * [database gui tools](tools/database-gui-tools.md)
