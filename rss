@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[alick's note]]></title>
+        <description><![CDATA[this note is noting some technology and journal]]></description>
+        <link>https://alick97.github.io/note/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 02 Jun 2025 16:02:10 GMT</lastBuildDate>
+        <atom:link href="https://alick97.github.io/note/rss" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[alick]]></author>
+        <managingEditor><![CDATA[alick97@outlook.com]]></managingEditor>
+        <webMaster><![CDATA[alick97@outlook.com]]></webMaster>
+        <category><![CDATA[book]]></category>
+        <category><![CDATA[tools]]></category>
+        <category><![CDATA[develop]]></category>
+        <item>
+            <title><![CDATA[Introduction]]></title>
+            <description><![CDATA[email: alick97@outlook.com]]></description>
+            <link>https://alick97.github.io/note/</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[something about linux]]></title>
+            <link>https://alick97.github.io/note/linux/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[note software in linux, like how to setup and use]]></title>
+            <link>https://alick97.github.io/note/linux/software/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/software/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[gitbook]]></title>
+            <description><![CDATA[{% tag 'created','20221001' %} {% endtag %} {% tag 'updated','20230305' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/software/gitbook.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/software/gitbook.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[honkit gitbook alternatives]]></title>
+            <description><![CDATA[{% tag 'created','20231223' %} {% endtag %} {% tag 'updated','20231223' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/software/honkit-gitbook-alternatives.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/software/honkit-gitbook-alternatives.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/software/git/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/software/git/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[git-config-ssh-connection-through-proxy]]></title>
+            <description><![CDATA[{% tag 'created','20221217' %} {% endtag %} {% tag 'updated','20221217' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/software/git/git-config-ssh-connection-through-proxy.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/software/git/git-config-ssh-connection-through-proxy.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[audiorelay-use-phone-mic-as-pc-mic]]></title>
+            <description><![CDATA[{% tag 'created','20230322' %} {% endtag %} {% tag 'updated','20230322' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/software/audiorelay-use-phone-mic-as-pc-mic.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/software/audiorelay-use-phone-mic-as-pc-mic.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/software/android/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/software/android/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[android terminal emulator termux]]></title>
+            <description><![CDATA[{% tag 'created','20230325' %} {% endtag %} {% tag 'updated','20230325' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/software/android/android-terminal-emulator-termux.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/software/android/android-terminal-emulator-termux.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Cross-Compiled Linux From Scratch]]></title>
+            <link>https://alick97.github.io/note/linux/clfs/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/clfs/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[home page about clfs]]></title>
+            <description><![CDATA[http://clfs.org/view/clfs-embedded/arm/index.html]]></description>
+            <link>https://alick97.github.io/note/linux/clfs/learn_url.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/clfs/learn_url.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/file_system/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/file_system/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[fat32 file system]]></title>
+            <description><![CDATA[{% tag 'created','20240503' %} {% endtag %} {% tag 'updated','20240503' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/file_system/fat32_file_system.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/file_system/fat32_file_system.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[vpn setting and vpn software]]></title>
+            <link>https://alick97.github.io/note/linux/vpn/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/vpn/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[ubuntu 设置过程记录]]></title>
+            <description><![CDATA[到这里，已经支持socks5协议的代理， http的不支持]]></description>
+            <link>https://alick97.github.io/note/linux/vpn/vpn_shadowsocks.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/vpn/vpn_shadowsocks.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/ubuntu/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/ubuntu/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/ubuntu/power/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/ubuntu/power/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[查看温度]]></title>
+            <description><![CDATA[输出]]></description>
+            <link>https://alick97.github.io/note/linux/ubuntu/power/linux-laptop-battery-power-manager.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/ubuntu/power/linux-laptop-battery-power-manager.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/ubuntu/setting/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/ubuntu/setting/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[中文输入法]]></title>
+            <description><![CDATA[{% tag 'created','20221001' %} {% endtag %} {% tag 'updated','20221130' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/ubuntu/setting/input-chinese.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/ubuntu/setting/input-chinese.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[english input]]></title>
+            <description><![CDATA[{% tag 'created','20250502' %} {% endtag %} {% tag 'updated','20250502' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/ubuntu/setting/english-input.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/ubuntu/setting/english-input.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/net/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/net/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/net/attack/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/net/attack/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[wifi wpa2 attack]]></title>
+            <description><![CDATA[{% tag 'created','20220709' %} {% endtag %} {% tag 'updated','20221210' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/net/attack/wifi-password-attack.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/net/attack/wifi-password-attack.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[proxy frp]]></title>
+            <description><![CDATA[{% tag 'created','20221004' %} {% endtag %} {% tag 'updated','20221004' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/net/proxy-frp.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/net/proxy-frp.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[net-state]]></title>
+            <description><![CDATA[{% tag 'created','20230827' %} {% endtag %} {% tag 'updated','20230827' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/net/net-state.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/net/net-state.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[iptables use linux as windows gateway and forward target connect to linux local port]]></title>
+            <description><![CDATA[{% tag 'created','20240425' %} {% endtag %} {% tag 'updated','20240425' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/net/iptables-use-linux-as-windows-gateway-and-forward-target-connect-to-linux-local-port.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/net/iptables-use-linux-as-windows-gateway-and-forward-target-connect-to-linux-local-port.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[capture app https message simply]]></title>
+            <description><![CDATA[{% tag 'created','20240719' %} {% endtag %} {% tag 'updated','20240719' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/net/capture-app-https-message-simply.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/net/capture-app-https-message-simply.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/service/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/service/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/service/sshd/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/service/sshd/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[sshd-auth-password-delay]]></title>
+            <description><![CDATA[{% tag 'created','20221030' %} {% endtag %} {% tag 'updated','20221030' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/service/sshd/sshd-auth-password-delay.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/service/sshd/sshd-auth-password-delay.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/ops/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/ops/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[ansible]]></title>
+            <description><![CDATA[{% tag 'created','20221123' %} {% endtag %} {% tag 'updated','20221126' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/ops/ansible.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/ops/ansible.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/qemu/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/qemu/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[run ubuntu in qemu with kvm]]></title>
+            <description><![CDATA[{% tag 'created','20240107' %} {% endtag %} {% tag 'updated','20240107' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/qemu/run-ubuntu-in-qemu-with-kvm.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/qemu/run-ubuntu-in-qemu-with-kvm.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/kernel/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/kernel/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[linux capabilities]]></title>
+            <description><![CDATA[{% tag 'created','20240113' %} {% endtag %} {% tag 'updated','20240113' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/kernel/linux-capabilities.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/kernel/linux-capabilities.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/memory/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/memory/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[create or resize linux swap]]></title>
+            <description><![CDATA[{% tag 'created','20240211' %} {% endtag %} {% tag 'updated','20240211' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/memory/create-and-remove-linux-swap.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/memory/create-and-remove-linux-swap.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/android/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/android/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[decompiler android app]]></title>
+            <description><![CDATA[{% tag 'created','20240723' %} {% endtag %} {% tag 'updated','20240723' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/android/decompiler-android-app.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/android/decompiler-android-app.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[android adb cheatsheat]]></title>
+            <description><![CDATA[{% tag 'created','20250503' %} {% endtag %} {% tag 'updated','20250503' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/android/android-adb-cheatsheet.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/android/android-adb-cheatsheet.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/linux/sound/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/sound/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[fix laptops 4 pin 3.5mm microphone is not detected issue]]></title>
+            <description><![CDATA[{% tag 'created','20241117' %} {% endtag %} {% tag 'updated','20241117' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/linux/sound/fix-laptops-4-pin-3.5mm-microphone-not-detect-issue.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/linux/sound/fix-laptops-4-pin-3.5mm-microphone-not-detect-issue.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[About program language]]></title>
+            <link>https://alick97.github.io/note/language/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Python language.]]></title>
+            <link>https://alick97.github.io/note/language/python/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Python library]]></title>
+            <link>https://alick97.github.io/note/language/python/lib/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/lib/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[示例代码]]></description>
+            <link>https://alick97.github.io/note/language/python/lib/python_logging.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/lib/python_logging.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/language/python/lib/sqlalchemy/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/lib/sqlalchemy/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/language/python/lib/sqlalchemy/issue/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/lib/sqlalchemy/issue/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[sqlalchemy bulk_save_object 使用中注意点记录]]></title>
+            <description><![CDATA[session创建的时候feature为False， 使用orm 对象外键指定的是对象 而不是id的时候 或者 不管session创建的时候feature指定False or True， 主动使用refobject.backref_collections.append(current_object) 都会导致使用 bulk_save_object 有重复插入数据的问题]]></description>
+            <link>https://alick97.github.io/note/language/python/lib/sqlalchemy/issue/issue-bulk-save-object-twice.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/lib/sqlalchemy/issue/issue-bulk-save-object-twice.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/language/python/language/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/language/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[{% tag 'created','20200920' %} {% endtag %} {% tag 'updated','20200920' %} {% endtag %} author: alick97]]></description>
+            <link>https://alick97.github.io/note/language/python/language/python-singleton-metaclass-type.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/language/python-singleton-metaclass-type.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[python timestamp with time_zone]]></title>
+            <description><![CDATA[{% tag 'created','20240511' %} {% endtag %} {% tag 'updated','20240511' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/language/python/language/python-timestamp-with-time-zone.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/language/python-timestamp-with-time-zone.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/language/python/profile/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/profile/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[python profile tools]]></title>
+            <description><![CDATA[{% tag 'created','20230225' %} {% endtag %} {% tag 'updated','20230225' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/language/python/profile/python-profile-tools.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/profile/python-profile-tools.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/language/python/environment/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/environment/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[python conda environment]]></title>
+            <description><![CDATA[{% tag 'created','20250521' %} {% endtag %} {% tag 'updated','20250521' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/language/python/environment/python-conda-environment.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/python/environment/python-conda-environment.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[cxx language.]]></title>
+            <link>https://alick97.github.io/note/language/cplusplus/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/cplusplus/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[循环引用 泄露错误实例]]></description>
+            <link>https://alick97.github.io/note/language/cplusplus/cpp-shared_ptr-weak_ptr.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/language/cplusplus/cpp-shared_ptr-weak_ptr.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/tools/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[vlc]]></title>
+            <description><![CDATA[{% tag 'created','20220126' %} {% endtag %} {% tag 'updated','20220126' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/vlc.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/vlc.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[ffmpeg]]></title>
+            <description><![CDATA[{% tag 'created','20220129' %} {% endtag %} {% tag 'updated','20220129' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/ffmpeg.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/ffmpeg.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/tools/uml/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/uml/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[plantuml]]></description>
+            <link>https://alick97.github.io/note/tools/uml/plantuml.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/uml/plantuml.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/tools/vpn/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/vpn/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[vpn server tailscale]]></title>
+            <description><![CDATA[{% tag 'created','20230611' %} {% endtag %} {% tag 'updated','20230611' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/vpn/vpn-tailscale.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/vpn/vpn-tailscale.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Shell directory jump tools [z]]]></title>
+            <description><![CDATA[{% tag 'created','20220828' %} {% endtag %} {% tag 'updated','20220828' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/z.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/z.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[glow]]></title>
+            <description><![CDATA[{% tag 'created','20230209' %} {% endtag %} {% tag 'updated','20230209' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/glow.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/glow.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[goldendict]]></title>
+            <description><![CDATA[{% tag 'created','20230225' %} {% endtag %} {% tag 'updated','20230225' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/goldendict.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/goldendict.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/tools/net/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/net/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[net diagnostic tool]]></title>
+            <description><![CDATA[{% tag 'created','20231107' %} {% endtag %} {% tag 'updated','20231107' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/net/net-diagnostic-tool.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/net/net-diagnostic-tool.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[net linux tunnel]]></title>
+            <description><![CDATA[{% tag 'created','20240114' %} {% endtag %} {% tag 'updated','20240114' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/net/net-linux-tunnel.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/net/net-linux-tunnel.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[cloudflare network tunnels]]></title>
+            <description><![CDATA[{% tag 'created','20250602' %} {% endtag %} {% tag 'updated','20250602' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/net/cloudflare-network-tunnels.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/net/cloudflare-network-tunnels.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/tools/editor/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/editor/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[neovim lazyvim]]></title>
+            <description><![CDATA[{% tag 'created','20240215' %} {% endtag %} {% tag 'updated','20240215' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/editor/neovim-lazyvim.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/editor/neovim-lazyvim.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[database gui tools]]></title>
+            <description><![CDATA[{% tag 'created','20240330' %} {% endtag %} {% tag 'updated','20240330' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/database-gui-tools.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/database-gui-tools.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[peek a gif recorder]]></title>
+            <description><![CDATA[{% tag 'created','20240525' %} {% endtag %} {% tag 'updated','20240525' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/peek-a-gif-recorder.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/peek-a-gif-recorder.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[music]]></title>
+            <description><![CDATA[{% tag 'created','20241116' %} {% endtag %} {% tag 'updated','20241116' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/music.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/music.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[midi tools]]></title>
+            <description><![CDATA[{% tag 'created','20250120' %} {% endtag %} {% tag 'updated','20250120' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/tools/midi-tools.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/tools/midi-tools.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/windows/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/windows/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/windows/service/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/windows/service/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[openssh]]></title>
+            <description><![CDATA[{% tag 'created','20221023' %} {% endtag %} {% tag 'updated','20221023' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/windows/service/openssh.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/windows/service/openssh.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/windows/net/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/windows/net/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[windows-config-hosts]]></title>
+            <description><![CDATA[{% tag 'created','20240411' %} {% endtag %} {% tag 'updated','20240411' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/windows/net/windows-config-hosts.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/windows/net/windows-config-hosts.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/web/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/web/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/web/attack/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/web/attack/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[web csrf and cookie]]></title>
+            <description><![CDATA[{% tag 'created','20240214' %} {% endtag %} {% tag 'updated','20240214' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/web/attack/web-csrf-and-cookie.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/web/attack/web-csrf-and-cookie.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/web/security/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/web/security/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[web certificate authority (CA)]]></title>
+            <description><![CDATA[{% tag 'created','20240502' %} {% endtag %} {% tag 'updated','20240502' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/web/security/web-certificate-authority-CA.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/web/security/web-certificate-authority-CA.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/database/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/database/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/database/mysql/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/database/mysql/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[mysql timestamp field with time_zone]]></title>
+            <description><![CDATA[{% tag 'created','20240511' %} {% endtag %} {% tag 'updated','20240511' %} {% endtag %} {% tag 'authors','alick' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/database/mysql/mysql-timestamp-field-with-time-zone.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/database/mysql/mysql-timestamp-field-with-time-zone.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://alick97.github.io/note/next/README.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/next/README.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[plan-2023]]></title>
+            <description><![CDATA[{% tag 'created','20230225' %} {% endtag %} {% tag 'updated','20230225' %} {% endtag %} {% tag 'authors','alick97' %} {% endtag %}]]></description>
+            <link>https://alick97.github.io/note/next/plan-2023.html</link>
+            <guid isPermaLink="true">https://alick97.github.io/note/next/plan-2023.html</guid>
+            <dc:creator><![CDATA[alick]]></dc:creator>
+        </item>
+    </channel>
+</rss>

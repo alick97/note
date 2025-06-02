@@ -1,0 +1,1950 @@
+
+<!DOCTYPE HTML>
+<html lang="zh,en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>python-singleton-metaclass-type · alick's note</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.3">
+        <meta name="author" content="alick">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/honkit-plugin-tags/tags.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta  name="google-site-verification"  content="Evl2azuihSf9pszzu46U60S_nOgQi51skaWAYkVpzv0" >
+    
+    <meta  name="msvalidate.01"  content="AB6F5319FFEB25A55D21BD87CD168377" >
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="python-timestamp-with-time-zone.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+
+    <link href="https://alick97.github.io/note/rss" title="alick's note" rel="alternate" type="application/rss+xml" />
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div>
+  
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+  <ul class="summary">
+    <li><span id="tags-link">tags</span></li>  
+    <li class="divider"></li>  
+  </ul>
+</div>
+
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../linux/">
+            
+                <a href="../../../linux/">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../../linux/software/">
+            
+                <a href="../../../linux/software/">
+            
+                    
+                    software
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../../../linux/software/gitbook.html">
+            
+                <a href="../../../linux/software/gitbook.html">
+            
+                    
+                    gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../../../linux/software/honkit-gitbook-alternatives.html">
+            
+                <a href="../../../linux/software/honkit-gitbook-alternatives.html">
+            
+                    
+                    honkit gitbook alternatives
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="../../../linux/software/git/">
+            
+                <a href="../../../linux/software/git/">
+            
+                    
+                    git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.3.1" data-path="../../../linux/software/git/git-config-ssh-connection-through-proxy.html">
+            
+                <a href="../../../linux/software/git/git-config-ssh-connection-through-proxy.html">
+            
+                    
+                    git config ssh connection through proxy
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="../../../linux/software/audiorelay-use-phone-mic-as-pc-mic.html">
+            
+                <a href="../../../linux/software/audiorelay-use-phone-mic-as-pc-mic.html">
+            
+                    
+                    audiorelay use phone mic as pc mic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="../../../linux/software/android/">
+            
+                <a href="../../../linux/software/android/">
+            
+                    
+                    android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.5.1" data-path="../../../linux/software/android/android-terminal-emulator-termux.html">
+            
+                <a href="../../../linux/software/android/android-terminal-emulator-termux.html">
+            
+                    
+                    android terminal emulator termux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../../linux/clfs/">
+            
+                <a href="../../../linux/clfs/">
+            
+                    
+                    clfs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../../../linux/clfs/learn_url.html">
+            
+                <a href="../../../linux/clfs/learn_url.html">
+            
+                    
+                    learn_url
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../../linux/file_system/">
+            
+                <a href="../../../linux/file_system/">
+            
+                    
+                    file system
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../../../linux/file_system/fat32_file_system.html">
+            
+                <a href="../../../linux/file_system/fat32_file_system.html">
+            
+                    
+                    fat32 file system
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../../linux/vpn/">
+            
+                <a href="../../../linux/vpn/">
+            
+                    
+                    vpn
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../../../linux/vpn/vpn_shadowsocks.html">
+            
+                <a href="../../../linux/vpn/vpn_shadowsocks.html">
+            
+                    
+                    vpn_shadowsocks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../../linux/ubuntu/">
+            
+                <a href="../../../linux/ubuntu/">
+            
+                    
+                    ubuntu
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="../../../linux/ubuntu/power/">
+            
+                <a href="../../../linux/ubuntu/power/">
+            
+                    
+                    power
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1.1" data-path="../../../linux/ubuntu/power/linux-laptop-battery-power-manager.html">
+            
+                <a href="../../../linux/ubuntu/power/linux-laptop-battery-power-manager.html">
+            
+                    
+                    linux-laptop-battery-power-manager
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2" data-path="../../../linux/ubuntu/setting/">
+            
+                <a href="../../../linux/ubuntu/setting/">
+            
+                    
+                    setting
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.2.1" data-path="../../../linux/ubuntu/setting/input-chinese.html">
+            
+                <a href="../../../linux/ubuntu/setting/input-chinese.html">
+            
+                    
+                    chinese input
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2.2" data-path="../../../linux/ubuntu/setting/english-input.html">
+            
+                <a href="../../../linux/ubuntu/setting/english-input.html">
+            
+                    
+                    english input
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../../linux/net/">
+            
+                <a href="../../../linux/net/">
+            
+                    
+                    net
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" data-path="../../../linux/net/attack/">
+            
+                <a href="../../../linux/net/attack/">
+            
+                    
+                    attack
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1.1" data-path="../../../linux/net/attack/wifi-password-attack.html">
+            
+                <a href="../../../linux/net/attack/wifi-password-attack.html">
+            
+                    
+                    wifi-password-attack
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" data-path="../../../linux/net/proxy-frp.html">
+            
+                <a href="../../../linux/net/proxy-frp.html">
+            
+                    
+                    proxy-frp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3" data-path="../../../linux/net/net-state.html">
+            
+                <a href="../../../linux/net/net-state.html">
+            
+                    
+                    net state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.4" data-path="../../../linux/net/iptables-use-linux-as-windows-gateway-and-forward-target-connect-to-linux-local-port.html">
+            
+                <a href="../../../linux/net/iptables-use-linux-as-windows-gateway-and-forward-target-connect-to-linux-local-port.html">
+            
+                    
+                    iptables use linux as windows gateway and forward target connect to linux local port
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.5" data-path="../../../linux/net/capture-app-https-message-simply.html">
+            
+                <a href="../../../linux/net/capture-app-https-message-simply.html">
+            
+                    
+                    capture app https message simply
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../../linux/service/">
+            
+                <a href="../../../linux/service/">
+            
+                    
+                    service
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1" data-path="../../../linux/service/sshd/">
+            
+                <a href="../../../linux/service/sshd/">
+            
+                    
+                    sshd
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1.1" data-path="../../../linux/service/sshd/sshd-auth-password-delay.html">
+            
+                <a href="../../../linux/service/sshd/sshd-auth-password-delay.html">
+            
+                    
+                    sshd-auth-pasword delay
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../../../linux/ops/">
+            
+                <a href="../../../linux/ops/">
+            
+                    
+                    ops
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.8.1" data-path="../../../linux/ops/ansible.html">
+            
+                <a href="../../../linux/ops/ansible.html">
+            
+                    
+                    ansible
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../../../linux/qemu/">
+            
+                <a href="../../../linux/qemu/">
+            
+                    
+                    qemu
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.9.1" data-path="../../../linux/qemu/run-ubuntu-in-qemu-with-kvm.html">
+            
+                <a href="../../../linux/qemu/run-ubuntu-in-qemu-with-kvm.html">
+            
+                    
+                    run ubuntu in qemu with kvm
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../../../linux/kernel/">
+            
+                <a href="../../../linux/kernel/">
+            
+                    
+                    kernel
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.10.1" data-path="../../../linux/kernel/linux-capabilities.html">
+            
+                <a href="../../../linux/kernel/linux-capabilities.html">
+            
+                    
+                    linux capabilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../../../linux/memory/">
+            
+                <a href="../../../linux/memory/">
+            
+                    
+                    memory
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.11.1" data-path="../../../linux/memory/create-and-remove-linux-swap.html">
+            
+                <a href="../../../linux/memory/create-and-remove-linux-swap.html">
+            
+                    
+                    create and remove linux swap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../../../linux/android/">
+            
+                <a href="../../../linux/android/">
+            
+                    
+                    android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.12.1" data-path="../../../linux/android/decompiler-android-app.html">
+            
+                <a href="../../../linux/android/decompiler-android-app.html">
+            
+                    
+                    decompiler android app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12.2" data-path="../../../linux/android/android-adb-cheatsheet.html">
+            
+                <a href="../../../linux/android/android-adb-cheatsheet.html">
+            
+                    
+                    android adb cheatsheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../../../linux/sound/">
+            
+                <a href="../../../linux/sound/">
+            
+                    
+                    sound
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.13.1" data-path="../../../linux/sound/fix-laptops-4-pin-3.5mm-microphone-not-detect-issue.html">
+            
+                <a href="../../../linux/sound/fix-laptops-4-pin-3.5mm-microphone-not-detect-issue.html">
+            
+                    
+                    fix laptops 4 pin 3.5mm microphone is not detect issue
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    language
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../lib/">
+            
+                <a href="../lib/">
+            
+                    
+                    lib
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1.1" data-path="../lib/python_logging.html">
+            
+                <a href="../lib/python_logging.html">
+            
+                    
+                    python-logging
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.1.2" data-path="../lib/sqlalchemy/">
+            
+                <a href="../lib/sqlalchemy/">
+            
+                    
+                    sqlalchemy
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1.2.1" data-path="../lib/sqlalchemy/issue/">
+            
+                <a href="../lib/sqlalchemy/issue/">
+            
+                    
+                    issue
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1.2.1.1" data-path="../lib/sqlalchemy/issue/issue-bulk-save-object-twice.html">
+            
+                <a href="../lib/sqlalchemy/issue/issue-bulk-save-object-twice.html">
+            
+                    
+                    bulk_save_object twice
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    language
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1.2.1" data-path="python-singleton-metaclass-type.html">
+            
+                <a href="python-singleton-metaclass-type.html">
+            
+                    
+                    python-singleton-metaclass-type
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2.2" data-path="python-timestamp-with-time-zone.html">
+            
+                <a href="python-timestamp-with-time-zone.html">
+            
+                    
+                    python timestamp with time zone
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../profile/">
+            
+                <a href="../profile/">
+            
+                    
+                    profile
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.3.1" data-path="../profile/python-profile-tools.html">
+            
+                <a href="../profile/python-profile-tools.html">
+            
+                    
+                    python-profile-tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../environment/">
+            
+                <a href="../environment/">
+            
+                    
+                    environment
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.4.1" data-path="../environment/python-conda-environment.html">
+            
+                <a href="../environment/python-conda-environment.html">
+            
+                    
+                    python conda environment
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../cplusplus/">
+            
+                <a href="../../cplusplus/">
+            
+                    
+                    cxx
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../cplusplus/cpp-shared_ptr-weak_ptr.html">
+            
+                <a href="../../cplusplus/cpp-shared_ptr-weak_ptr.html">
+            
+                    
+                    cpp-shared_ptr-weak_ptr
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../tools/">
+            
+                <a href="../../../tools/">
+            
+                    
+                    tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../../tools/vlc.html">
+            
+                <a href="../../../tools/vlc.html">
+            
+                    
+                    vlc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../../tools/ffmpeg.html">
+            
+                <a href="../../../tools/ffmpeg.html">
+            
+                    
+                    ffmpeg
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../../tools/uml/">
+            
+                <a href="../../../tools/uml/">
+            
+                    
+                    uml
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../../tools/uml/plantuml.html">
+            
+                <a href="../../../tools/uml/plantuml.html">
+            
+                    
+                    plantuml
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../../tools/vpn/">
+            
+                <a href="../../../tools/vpn/">
+            
+                    
+                    vpn
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../../../tools/vpn/vpn-tailscale.html">
+            
+                <a href="../../../tools/vpn/vpn-tailscale.html">
+            
+                    
+                    vpn server tailscale
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../../tools/z.html">
+            
+                <a href="../../../tools/z.html">
+            
+                    
+                    z
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../../tools/glow.html">
+            
+                <a href="../../../tools/glow.html">
+            
+                    
+                    glow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../../tools/goldendict.html">
+            
+                <a href="../../../tools/goldendict.html">
+            
+                    
+                    goldendict
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../../../tools/net/">
+            
+                <a href="../../../tools/net/">
+            
+                    
+                    net
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.8.1" data-path="../../../tools/net/net-diagnostic-tool.html">
+            
+                <a href="../../../tools/net/net-diagnostic-tool.html">
+            
+                    
+                    net diagnostic tool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.2" data-path="../../../tools/net/net-linux-tunnel.html">
+            
+                <a href="../../../tools/net/net-linux-tunnel.html">
+            
+                    
+                    net linux tunnel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.3" data-path="../../../tools/net/cloudflare-network-tunnels.html">
+            
+                <a href="../../../tools/net/cloudflare-network-tunnels.html">
+            
+                    
+                    net cloudflare network tunnels
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../../../tools/editor/">
+            
+                <a href="../../../tools/editor/">
+            
+                    
+                    editor
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.9.1" data-path="../../../tools/editor/neovim-lazyvim.html">
+            
+                <a href="../../../tools/editor/neovim-lazyvim.html">
+            
+                    
+                    neovim lazyvim
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../../../tools/database-gui-tools.html">
+            
+                <a href="../../../tools/database-gui-tools.html">
+            
+                    
+                    database gui tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../../../tools/peek-a-gif-recorder.html">
+            
+                <a href="../../../tools/peek-a-gif-recorder.html">
+            
+                    
+                    peek a git recorder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../../../tools/music.html">
+            
+                <a href="../../../tools/music.html">
+            
+                    
+                    music
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../../../tools/midi-tools.html">
+            
+                <a href="../../../tools/midi-tools.html">
+            
+                    
+                    midi-tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../windows/">
+            
+                <a href="../../../windows/">
+            
+                    
+                    windows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../../windows/service/">
+            
+                <a href="../../../windows/service/">
+            
+                    
+                    service
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../../../windows/service/openssh.html">
+            
+                <a href="../../../windows/service/openssh.html">
+            
+                    
+                    openssh
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../../windows/net/">
+            
+                <a href="../../../windows/net/">
+            
+                    
+                    net
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../../windows/net/windows-config-hosts.html">
+            
+                <a href="../../../windows/net/windows-config-hosts.html">
+            
+                    
+                    windows config hosts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../../web/">
+            
+                <a href="../../../web/">
+            
+                    
+                    web
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../../web/attack/">
+            
+                <a href="../../../web/attack/">
+            
+                    
+                    attack
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../../../web/attack/web-csrf-and-cookie.html">
+            
+                <a href="../../../web/attack/web-csrf-and-cookie.html">
+            
+                    
+                    web csrf and cookie
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../../web/security/">
+            
+                <a href="../../../web/security/">
+            
+                    
+                    security
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../../../web/security/web-certificate-authority-CA.html">
+            
+                <a href="../../../web/security/web-certificate-authority-CA.html">
+            
+                    
+                    web ceritificate authority (CA)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../../database/">
+            
+                <a href="../../../database/">
+            
+                    
+                    database
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../../database/mysql/">
+            
+                <a href="../../../database/mysql/">
+            
+                    
+                    mysql
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1.1" data-path="../../../database/mysql/mysql-timestamp-field-with-time-zone.html">
+            
+                <a href="../../../database/mysql/mysql-timestamp-field-with-time-zone.html">
+            
+                    
+                    mysql timestamp field with time zone
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../../next/">
+            
+                <a href="../../../next/">
+            
+                    
+                    next
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../../next/plan-2023.html">
+            
+                <a href="../../../next/plan-2023.html">
+            
+                    
+                    plan-2023
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >python-singleton-metaclass-type</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+  <div id="original-search-result">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="python3-singleton-metaclass-实现以及-对象模型">python3 singleton metaclass 实现以及 对象模型</h3>
+<p>created: 20200920 updated: 20200920 author: alick97</p>
+<hr></hr>
+<p>示例代码 运行python3.8中:</p>
+<pre><code>class Singleton(type):
+    def __init__(cls, *args, **kwargs):
+        print(f"singleton __init__: {cls}")
+        cls.__a__instance = None
+        # super(Singleton, cls).__init__(*args, **kwargs)
+        super().__init__(*args, **kwargs)
+        cls.show_a = cls.show
+
+    def show(self):
+        print('show')
+
+    def ssss(self):
+        print(f'sssssss {self}')
+
+    def __new__(cls, name, bases, dct):
+        # bases default is object class.
+        print(f"singleton __new__: cls {cls}, name {name}, base {bases}")
+        return super().__new__(cls, name, bases, dct)
+
+    def __call__(self, *args, **kwargs):
+        print(f"singleton __call__: {self}")
+        if self.__a__instance is None:
+            self.__a__instance = super().__call__(*args, **kwargs)
+            return self.__a__instance
+        else:
+            print(f'singleton {self} has_instance, {self.__a__instance}')
+            return self.__a__instance
+
+
+class Foo(object, metaclass=Singleton):
+    AAAA = 1
+    BBBB = 2
+
+    def showccc(self):
+        pass
+
+    # aclass__ = Singleton #  在代码执行到这里的时候，元类中的__new__方法和__init__方法其实已经被执行了，而不是在Foo实例化的时候执行。且仅会执行一次。
+    def __new__(cls, *args, **kwargs):
+        print(f"Foo __new__: {cls}")
+        return super().__new__(cls, *args, **kwargs)
+
+    def __init__(self):
+        print(f'Foo __init__: {self}')
+
+
+class BBB(object, metaclass=Singleton):
+    def __init__(self):
+        print("BBB self init: {}".format(self))
+
+
+a = Foo()
+b = Foo()
+c = BBB()
+cc = BBB()
+
+Foo.ssss()
+# a.ssss() #  error
+a.show_a()
+Foo.show_a()
+</code></pre><p>运行结果:</p>
+<pre><code>singleton __new__: cls &lt;class '__main__.Singleton'&gt;, name Foo, base (&lt;class 'object'&gt;,)
+singleton __init__: &lt;class '__main__.Foo'&gt;
+singleton __new__: cls &lt;class '__main__.Singleton'&gt;, name BBB, base (&lt;class 'object'&gt;,)
+singleton __init__: &lt;class '__main__.BBB'&gt;
+singleton __call__: &lt;class '__main__.Foo'&gt;
+Foo __new__: &lt;class '__main__.Foo'&gt;
+Foo __init__: &lt;__main__.Foo object at 0x7ff7f036ab80&gt;
+singleton __call__: &lt;class '__main__.Foo'&gt;
+singleton &lt;class '__main__.Foo'&gt; has_instance, &lt;__main__.Foo object at 0x7ff7f036ab80&gt;
+singleton __call__: &lt;class '__main__.BBB'&gt;
+BBB self init: &lt;__main__.BBB object at 0x7ff7f036a670&gt;
+singleton __call__: &lt;class '__main__.BBB'&gt;
+singleton &lt;class '__main__.BBB'&gt; has_instance, &lt;__main__.BBB object at 0x7ff7f036a670&gt;
+sssssss &lt;class '__main__.Foo'&gt;
+show
+show
+</code></pre><p>上面代码的理解:</p>
+<ul>
+<li>用Foo类型的metaclass Singleton创建Foo类型，调用singleton的<strong>new</strong>创建Foo， base默认为object， name为类型名，使用的就是父metaclass type的<strong>new</strong>.</li>
+<li>metaclass Singleton <strong>init</strong>初始化Foo类型, Foo类型创建完成.</li>
+<li>a = Foo() 调用metaclass Singleton的<strong>call</strong>方法， 来创建对应的Foo的实例对象。</li>
+<li>Singleton的<strong>call</strong> 会执行两个重要的动作， 调用对应Foo的<strong>new</strong>创建对应的的对象，然后调用对应的Foo的<strong>init</strong>初始化对应的Foo的实例，这样Foo得实例a就创建成功了。</li>
+<li>b = Foo() 由于Foo类型已经又对应的metaclass Singleton创建所以这里不会再创建，也就是Singleton的<strong>new</strong>和<strong>init</strong>不会执行。直接执行Singleton的<strong>call</strong>, 由于<strong>call</strong>中我们做的hook，之前存储的创建的Foo的实例已经存储直接返回， 就打到了Singleton的效果。</li>
+<li>c = BBB（） cc = BBB()逻辑同上.</li>
+<li>Foo.ssss() 可以调用是因为Foo作为类型是Singleton的实例， 对应的<strong>class</strong>指向Singleton，所以有singleton的方法ssss()。</li>
+<li>a.ssss() 报错，是因为Foo作为类型没有这个方法，Foo继承的是object, 导致a的方法映射不会出现ssss这个方法。 这里Foo有两面性， 一个是作为metaclass Singleton的实例，一个是作为a的父类.</li>
+<li>a有show<em>a()的方法是它的父类有show<em>a()的方法， 这个方法是在Singleton在__init</em></em> 初始化Foo类型的时候 执行 cls.show_a = cls.show 赠予给Foo的.这里的cls都是Foo，右边是Foo作为Singleton的实例， 左边也是Singleton这样做的目的 是 Foo建立作为a的父类能够将show_a -&gt; show这样一个映射传递下去.</li>
+<li>从上面 可以看到， 设计模式singleton在不同的语言的实现是有细节差异的</li>
+<li>metaclass这种定制类型的应用有内建的enum等， 也有应用级别如django中的orm model的应用.</li>
+</ul>
+<h4 id="about-metaclass-type-class-class-instance">about metaclass-type class class-instance</h4>
+<p>metaclass中的方法是<strong>类型级别</strong>的操作，不是class级别的. </p>
+<p>python中类型就是我们所说的class也是一种metaclass的实例，大多数class的metaclass都是type. class的最初的base也就是所有class的起源都是从object这个class来的.
+class instance是对应的class实例化的.</p>
+<p>类与类之间的关系是 is-kind-of的关系， 查看<strong>bases</strong></p>
+<p>类的实例和对应的类之间的关系 is-instance-of 查看<strong>class</strong></p>
+<p>三种类型的经典关系:</p>
+<pre><code>     metaclass        |      class              |     class instance
+  |-- &lt;type 'type'&gt;  &lt;------  &lt;type 'object'&gt;
+  |     /\                     /\
+  |----&gt;|                      ||
+        |                      ||
+        ----------------- &lt;class 'A'&gt;    &lt;-----------  a 'A instance'
+</code></pre><p>其中:</p>
+<p>---&gt; 代表 is-instance-of</p>
+<p>===&gt; 代表 is-kind-of</p>
+<p>class Foo的metaclass是Singleton，所以它是由这个metaclass类型创建的,是is-instance-of的关系， 查看它的<strong>class</strong>就是Singleton.</p>
+<h5 id="todo-关于为什么要搞出来一个type-metaclass-直接所有的class都从顶级的object发芽不行吗">TODO: 关于为什么要搞出来一个type metaclass, 直接所有的class都从顶级的object发芽不行吗?</h5>
+<p>有很多原因， 如多个class共通的都抽到type中， 允许用户做些hook来定制class的行为，如enum staticmethod等等类型都是在metaclass的基础上搞出来的。
+最主要的 可以动态创建类.</p>
+<p>至于能否去掉，因为很多class的type都是type的实例，有待研究源码，目前源码是从class对应type给上搜索反向初始化的. 还有就是涉及研究 动态解释语言以及反射等。</p>
+<p>关于类型创建, 可以参见<a href="https://docs.python.org/3/library/functions.html?highlight=type#type" target="_blank">type</a></p>
+<pre><code>class type(object)
+class type(name, bases, dict)
+
+class X:
+    a = 1
+
+X = type('X', (object,), dict(a=1))
+</code></pre><blockquote>
+<p>参考</p>
+<ul>
+<li><a href="https://stackoverflow.com/questions/44178162/call-method-of-type-class" target="_blank">https://stackoverflow.com/questions/44178162/call-method-of-type-class</a></li>
+<li><a href="https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python" target="_blank">https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python</a></li>
+<li><a href="https://realpython.com/python-metaclasses/" target="_blank">https://realpython.com/python-metaclasses/</a></li>
+<li>&lt;&lt; Python 源码剖析 &gt;&gt; 作者 陈儒 章节 python虚拟机中的类机制</li>
+<li>super 以及 多继承方法解析顺序 Method Resolution Order [MRO]</li>
+</ul>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+  </div>
+  <div id="tags-container"> 
+    <h2>tags</h2>
+    <div id="tags-container-inner">
+      <h3>tags key</h3>
+      <div id="tags-key" class="tags-items">
+      </div>
+      <h3>tags value</h3>
+      <div id="tags-value" class="tags-items">
+      </div>
+      <h3>page list</h3>
+      <div id="tags-page-list">
+      </div>
+    </div>
+    <div id="tags-container-loading">
+    </div>
+  </div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: language">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="python-timestamp-with-time-zone.html" class="navigation navigation-next " aria-label="Next page: python timestamp with time zone">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"python-singleton-metaclass-type","level":"1.3.1.2.1","depth":4,"next":{"title":"python timestamp with time zone","level":"1.3.1.2.2","depth":4,"path":"language/python/language/python-timestamp-with-time-zone.md","ref":"language/python/language/python-timestamp-with-time-zone.md","articles":[]},"previous":{"title":"language","level":"1.3.1.2","depth":3,"path":"language/python/language/README.md","ref":"language/python/language/README.md","articles":[{"title":"python-singleton-metaclass-type","level":"1.3.1.2.1","depth":4,"path":"language/python/language/python-singleton-metaclass-type.md","ref":"language/python/language/python-singleton-metaclass-type.md","articles":[]},{"title":"python timestamp with time zone","level":"1.3.1.2.2","depth":4,"path":"language/python/language/python-timestamp-with-time-zone.md","ref":"language/python/language/python-timestamp-with-time-zone.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["uml","collapsible-menu","rss","meta","tags","sitemap"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"meta":{"name":"","content":"","data":[{"name":"google-site-verification","content":"Evl2azuihSf9pszzu46U60S_nOgQi51skaWAYkVpzv0"},{"name":"msvalidate.01","content":"AB6F5319FFEB25A55D21BD87CD168377"}]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["book","tools","develop"],"title":"alick's note","description":"this note is noting some technology and journal","author":"alick","feed_url":"https://alick97.github.io/note/rss","site_url":"https://alick97.github.io/note/","managingEditor":"alick97@outlook.com","webMaster":"alick97@outlook.com"},"highlight":{},"uml":{"format":"svg","nailgun":false,"config":"monochrome","charset":"utf8"},"sitemap":{"url":"https://alick97.github.io","pathSuffix":"/note/"},"tags":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"alick","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"alick's note","language":"zh,en","gitbook":"*","description":"this note is noting some technology and journal"},"file":{"path":"language/python/language/python-singleton-metaclass-type.md","mtime":"2025-06-02T16:00:16.367Z","type":"markdown"},"gitbook":{"version":"6.0.3","time":"2025-06-02T16:02:00.525Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-rss/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/honkit-plugin-tags/tags.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

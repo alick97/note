@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "gitbook-plugin-collapsible-menu": "^1.0.3",
+    "gitbook-plugin-meta": "^0.1.12",
+    "gitbook-plugin-rss": "^3.0.2",
+    "gitbook-plugin-uml": "^1.2.21",
+    "honkit-plugin-sitemap": "^1.0.2",
+    "honkit-plugin-tags": "^0.0.1"
+  },
+  "devDependencies": {
+    "honkit": "^6.0.2"
+  }
+}
