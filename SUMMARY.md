@@ -96,6 +96,9 @@
     * [mysql timestamp field with time zone](database/mysql/mysql-timestamp-field-with-time-zone.md)
 * [accounting](accounting/README.md)
     * [accounting book](accounting/accounting-book.md) 
+* [ai](ai/README.md)
+    * [agent](ai/agent/README.md)
+        * [ai agent skills](ai/agent/ai-agent-skills.md)
 * [next](next/README.md)
     * [plan-2023](next/plan-2023.md)
 
