@@ -99,6 +99,7 @@
 * [ai](ai/README.md)
     * [agent](ai/agent/README.md)
         * [ai agent skills](ai/agent/ai-agent-skills.md)
+    * [vscode ai code plugin](ai/vscode-ai-code-plugin.md)
 * [next](next/README.md)
     * [plan-2023](next/plan-2023.md)
 
