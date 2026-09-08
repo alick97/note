@@ -7,6 +7,7 @@
         * [honkit gitbook alternatives](linux/software/honkit-gitbook-alternatives.md)
         * [git](linux/software/git/README.md)
             * [git config ssh connection through proxy](linux/software/git/git-config-ssh-connection-through-proxy.md)
+            * [git worktree](linux/software/git/git-worktree.md)
         * [audiorelay use phone mic as pc mic](linux/software/audiorelay-use-phone-mic-as-pc-mic.md)
         * [android](linux/software/android/README.md)
             * [android terminal emulator termux](linux/software/android/android-terminal-emulator-termux.md)
